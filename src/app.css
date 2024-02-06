@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Style for a container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
