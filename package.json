@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"elizabot": "^0.0.3"
+		"elizabot": "^0.0.3",
+		"sass": "^1.70.0"
 	}
 }
