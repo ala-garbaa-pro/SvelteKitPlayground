@@ -52,3 +52,10 @@ a {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+/* Style for a form */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
