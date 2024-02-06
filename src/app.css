@@ -58,3 +58,11 @@ a {
   max-width: 400px;
   margin: 0 auto;
 }
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
