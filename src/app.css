@@ -55,7 +55,6 @@ a {
 
 /* Style for a form */
 .form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
+  max-width: 400px;
+  margin: 0 auto;
+}
