@@ -6,9 +6,14 @@
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugit veniam ipsa
   id asperiores quas, voluptate dolores ea laborum? Laborum, expedita id?
   Maiores facilis ea, voluptatibus quo odio animi commodi!
-  <div style:color="var(--background-color)">
+  
+  <div style:--txt-color="blue">
     <Baby />
   </div>
+
+  <Baby --txt-color="lime" />
+  <Baby />
+
 </div>
 
 <style>
