@@ -1,12 +1,1 @@
 # SvelteKitPlayground
-
-
-
-
-
-
-
-
-
-
-
