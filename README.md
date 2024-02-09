@@ -1,1 +1,1 @@
-# SvelteKitPlayground
+# Svelte Kit Playground
