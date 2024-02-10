@@ -1,7 +1,7 @@
 <script lang="ts">
   import { blur, fade, fly } from "svelte/transition";
-  import { scrollControlManager } from "../start/scrollControlManager";
   import { createEventDispatcher } from "svelte";
+  import { scrollControlManager } from "../end/scrollControlManager";
 
   const dispatch = createEventDispatcher();
 
@@ -18,20 +18,20 @@
 >
   <div class="fixed inset-0 z-10 overflow-y-auto">
     <div
-      class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+      class="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0"
       in:fade={{ duration: 300 }}
       out:fade={{ duration: 500 }}
     >
       <div
-        class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
+        class="relative px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
       >
         <div class="sm:flex sm:items-start">
           <button
             on:click={() => dispatch("close")}
-            class="cursor-none mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-100 sm:mx-0 sm:h-10 sm:w-10"
+            class="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-purple-100 rounded-full cursor-none sm:mx-0 sm:h-10 sm:w-10"
           >
             <svg
-              class="h-6 w-6 text-purple-600"
+              class="w-6 h-6 text-purple-600"
               stroke="currentColor"
               fill="currentColor"
               stroke-width="0"
@@ -78,12 +78,12 @@
           <button
             on:click={() => alert("You account has been activated 😅")}
             type="button"
-            class="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 sm:w-auto"
+            class="inline-flex justify-center w-full px-3 py-2 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-500 sm:w-auto"
             ><strike>Diz</strike>Activate</button
           >
           <button
             type="button"
-            class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:ml-3 sm:mt-0 sm:w-auto"
+            class="inline-flex justify-center w-full px-3 py-2 mt-3 text-sm font-semibold text-gray-900 bg-white rounded-md shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:ml-3 sm:mt-0 sm:w-auto"
             >Forget me!</button
           >
         </div>
