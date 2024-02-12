@@ -4,11 +4,7 @@
   let name = "John";
 </script>
 
-
-
 <p>Name from App: {name}</p>
-
-
 
 <UserProfile bind:username={name} />
 
