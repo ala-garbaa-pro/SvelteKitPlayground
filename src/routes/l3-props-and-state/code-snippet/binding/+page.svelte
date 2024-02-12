@@ -7,6 +7,7 @@
 <p>Name from App: {name}</p>
 
 
+
 <UserProfile bind:username={name} />
 
 <button on:click={() => (name = "Svelte")}>Update from App</button>
