@@ -2,7 +2,13 @@
   export let username = "John Doe";
 </script>
 
-<p>Username: {username}</p>
+
 
 Username: <br />
-<input bind:value={username} />!
+<input
+
+  on:input={(event) => {
+    username = event.target.value;
+  }}
+
+bind:value={username} />!
