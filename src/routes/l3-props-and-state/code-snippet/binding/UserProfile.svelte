@@ -4,7 +4,8 @@
 
 
 
-Username: <br />
+<p>Username: </p>
+
 <input
 
-/>
+bind:value={username} />!
