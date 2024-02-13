@@ -1,6 +1,10 @@
 <script>
   export let username = "John Doe";
-  
+
+  function updateUsername() {
+    username = "Svelte";
+  }
+
 </script>
 
 
