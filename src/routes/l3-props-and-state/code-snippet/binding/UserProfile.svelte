@@ -1,5 +1,6 @@
 <script>
-  export let username = "John Doe";
+
+export let username = "John Doe";
 
 </script>
 
