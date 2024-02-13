@@ -1,8 +1,6 @@
 <script>
   import UserProfile from "./UserProfile.svelte";
 
-  
-
   let name = "John";
 
 </script>
