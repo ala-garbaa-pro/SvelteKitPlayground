@@ -9,8 +9,9 @@
   onMount(() => {
 
     setInterval(() => {
-      
+
     date = new Date();
+    
   }, 1000);
 
   });
