@@ -3,8 +3,9 @@
   export let valueB: number;
   
   $: valueC = valueA + 5;
-  
+
   $: valueD = valueB + valueC;
+  
   $: valueE = Math.min(valueC, valueD / 2);
 </script>
 
