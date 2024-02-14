@@ -7,6 +7,7 @@
   let date = new Date();
 
   onMount(() => {
+    
     setInterval(() => {
     date = new Date();
   }, 1000);
