@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
 
   import DateLabel from "./DateLabel.svelte";
+  
   import CrazyMath from "./CrazyMath.svelte";
 
   let date = new Date();
@@ -11,7 +12,7 @@
     setInterval(() => {
 
     date = new Date();
-    
+
   }, 1000);
 
   });
