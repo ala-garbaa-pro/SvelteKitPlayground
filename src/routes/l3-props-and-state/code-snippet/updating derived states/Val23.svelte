@@ -2,6 +2,7 @@
   export let value: number;
   $: double = value * 2;
   $: triple = value * 3;
+  
 </script>
 
 <input bind:value={double} type="number" />
