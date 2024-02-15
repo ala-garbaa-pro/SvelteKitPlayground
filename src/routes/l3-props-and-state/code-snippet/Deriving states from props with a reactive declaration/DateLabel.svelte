@@ -4,6 +4,7 @@
   export let date: Date;
   
   export let locale: string;
+  
   // Reactive declaration with multiple 
   
   $: label = date.toLocaleTimeString(locale);
