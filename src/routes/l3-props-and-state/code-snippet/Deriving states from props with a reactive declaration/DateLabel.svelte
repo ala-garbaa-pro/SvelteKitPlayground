@@ -9,7 +9,6 @@
   
 
 $: label = date.toLocaleTimeString(locale);
-
 </script>
 <label for="date">{label}</label>
 
