@@ -1,7 +1,7 @@
 <!-- filename: DateLabel.svelte -->
 <script lang="ts">
   
-  export let date: Date;
+export let date: Date;
     export let locale: string;
   // Reactive declaration with multiple 
   
