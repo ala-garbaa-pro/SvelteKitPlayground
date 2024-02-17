@@ -15,6 +15,7 @@
     );
   }
 
+
   function handleTripleChange(e: Event) {
     updateValueFromTriple(
       (e.target as HTMLInputElement).value as any as number
