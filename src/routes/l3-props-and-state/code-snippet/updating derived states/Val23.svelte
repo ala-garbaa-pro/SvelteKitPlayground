@@ -14,6 +14,7 @@
   }
 
   function handleDoubleChange(e: Event) {
+    
     updateValueFromDouble(
 
       (e.target as HTMLInputElement).value as any as number
