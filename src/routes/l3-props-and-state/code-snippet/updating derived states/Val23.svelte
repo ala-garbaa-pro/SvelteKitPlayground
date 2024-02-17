@@ -6,6 +6,7 @@
   $: triple = value * 3;
 
   function updateValueFromDouble(double: number) {
+    
     value = double / 2;
   }
   
