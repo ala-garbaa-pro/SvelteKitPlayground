@@ -1,5 +1,6 @@
 <script lang="ts">
   export let value: number;
+  
   $: double = value * 2;
   
   $: triple = value * 3;
