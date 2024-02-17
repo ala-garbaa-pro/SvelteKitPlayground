@@ -3,6 +3,7 @@
   $: double = value * 2;
   $: triple = value * 3;
   function updateValueFromDouble(double: number) {
+    
     value = double / 2;
   }
   function updateValueFromTriple(triple: number) {
@@ -11,7 +12,7 @@
 
   function handleDoubleChange(e: Event) {
     updateValueFromDouble(
-      
+
       (e.target as HTMLInputElement).value as any as number
     );
   }
