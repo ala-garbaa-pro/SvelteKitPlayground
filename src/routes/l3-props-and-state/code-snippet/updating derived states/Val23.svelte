@@ -23,4 +23,5 @@
 </script>
 
 <input value={double} type="number" on:change={handleDoubleChange} />
+
 <input value={triple} type="number" on:change={handleTripleChange} />
