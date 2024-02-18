@@ -12,7 +12,8 @@ $: label = date.toLocaleTimeString(locale);
 
 Lorem ipsum, dolor sit amet 
 consectetur adip
-isicing elit. Accusamus nost
+isicing elit. A
+ccusamus nost
 rum quod esse impedit modi tene
 tur numquam repellat cum acc
 usantium repudia
