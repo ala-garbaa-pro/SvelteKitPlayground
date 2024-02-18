@@ -9,18 +9,3 @@ $: label = date.toLocaleTimeString(locale);
 <label for="date">{label}</label>
 
 <input class="w-full" type="text" bind:value={date} />
-
-Lorem ipsum, d.
-olor sit amet 
-consectetur adip
-isicing elit. A
-ccusamus nost
-rum quod esse 
-impedit modi tene
-tur numquam rep
-ellat cum acc
-usantium repudia
-ndae quis expedi
-ta ex eius,
- unde in, iure v
- ero quos autem!
