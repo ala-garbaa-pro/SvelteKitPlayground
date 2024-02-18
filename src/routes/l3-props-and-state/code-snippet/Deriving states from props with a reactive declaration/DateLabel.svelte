@@ -10,5 +10,6 @@ $: label = date.toLocaleTimeString(locale);
 
 <input class="w-full" type="text" bind:value={date} />
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum quod esse impedit modi tene
+Lorem ipsum, dolor sit amet consectetur adip
+isicing elit. Accusamus nostrum quod esse impedit modi tene
 tur numquam repellat cum accusantium repudiandae quis expedita ex eius, unde in, iure vero quos autem!
