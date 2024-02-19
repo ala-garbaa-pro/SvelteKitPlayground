@@ -22,3 +22,5 @@ Svelte component
     <u>{value}</u>
   </svelte:fragment>
 </JsonTree>
+
+--Actions
