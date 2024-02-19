@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Input from "./Input.svelte";
-  import Checkbox from "./Checkbox.svelte";
-  import Select from "./Select.svelte";
+  import Input from "../Input.svelte";
+  import Checkbox from "../Checkbox.svelte";
+  import Select from "../Select.svelte";
   let type = "input"; // Could be "checkbox" or "select"
   let value = "";
   // onChange

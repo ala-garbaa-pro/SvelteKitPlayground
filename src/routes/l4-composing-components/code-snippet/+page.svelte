@@ -31,7 +31,13 @@
 <br />
 
 
-<a href="/l4-composing-components/code-snippet/rendering-different-html-element-or-component-types"
-  >Rendering different HTML element or component types</a
+<a href="/l4-composing-components/code-snippet/rendering-different-html-element-or-component-types/basic"
+  >basic - Rendering different HTML element or component types</a
+>
+<br />
+
+
+<a href="/l4-composing-components/code-snippet/rendering-different-html-element-or-component-types/adv"
+  >adv - Rendering different HTML element or component types</a
 >
 <br />
