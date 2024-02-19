@@ -1,9 +1,19 @@
-<script>
-  import Card from "./Card.svelte";
+<script lang="ts">
+  import Input from "./Input.svelte";
+  import Checkbox from "./Checkbox.svelte";
+  import Select from "./Select.svelte";
+  let type = "input"; // Could be "checkbox" or "select"
+  let value = "";
+  // onChange
+  function onChange(e: Event) {
+    value = (e.target as HTMLInputElement).value;
+  }
 </script>
 
-<Card>
-  <svelte:fragment slot="header" let:width let:height>
-    <h1>Dimension: {width} x {height}</h1>
-  </svelte:fragment>
-</Card>
+{#if type === "input"}
+  <Input {value} {onChange} />
+{:else if type === "checkbox"}
+  <Checkbox {value} {onChange} />
+{:else}
+  <Select {value} {onChange} />
+{/if}
