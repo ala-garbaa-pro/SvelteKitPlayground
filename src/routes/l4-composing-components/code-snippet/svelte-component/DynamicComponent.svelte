@@ -3,7 +3,6 @@
   import NumberValue from "./NumberValue.svelte";
   import StringValue from "./StringValue.svelte";
 
-
   export let data: any;
 
   function getComponent(type: string) {
@@ -15,12 +14,27 @@
 
 <ul>
   {#each Object.entries(data) as [key, value]}
-    <li style="display: flex;">
+    <li>
       {key}:
       {#if typeof value === "object"}
         <svelte:self data={value} />
       {:else}
         <svelte:component this={getComponent(typeof value)} {value} />
+      {/if}
+    </li>
+  {/each}
+</ul>
+<hr />
+<ul>
+  {#each Object.entries(data) as [key, value]}
+    <li>
+      <slot name="obj-key" {key}>{key}:</slot>
+      {#if typeof value === "object"}
+        <svelte:self data={value} />
+      {:else}
+        <slot name="obj-value" {value}>
+          <svelte:component this={getComponent(typeof value)} {value} />
+        </slot>
       {/if}
     </li>
   {/each}
