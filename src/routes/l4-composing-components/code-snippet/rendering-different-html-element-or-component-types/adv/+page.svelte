@@ -3,6 +3,8 @@
   import Checkbox from "../Checkbox.svelte";
   import Select from "../Select.svelte";
   let value = "";
+  let typeX = "button"; // could be 'div', 'p', 'a', etc.
+
   // onChange
   function onChange(e: Event) {
     value = (e.target as HTMLInputElement).value;
@@ -21,3 +23,7 @@
 </script>
 
 <svelte:component this={DynamicComponent} {value} {onChange} />
+
+<hr />
+
+<svelte:element this={typeX}> Click Me </svelte:element>
