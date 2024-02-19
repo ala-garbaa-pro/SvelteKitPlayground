@@ -47,3 +47,8 @@
   >Creating recursive components for recursive data</a
 >
 <br />
+
+<a href="/l4-composing-components/code-snippet/svelte-component"
+  >Svelte component</a
+>
+<br />
