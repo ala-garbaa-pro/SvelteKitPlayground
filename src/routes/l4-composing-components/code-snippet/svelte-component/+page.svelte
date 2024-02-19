@@ -10,7 +10,7 @@
   };
 </script>
 
-Svelte component
+<h1>Svelte component</h1>
 <DynamicComponent {data} />
 
 <h1>yoo</h1>
