@@ -4,6 +4,13 @@
 
 <ul>
   {#each Object.entries(data) as [key, value]}
-    <li>{key}: {value}</li>
+    <li>
+      {key}:
+      {#if typeof value === "object"}
+        <svelte:self data={value} />
+      {:else}
+        {value}
+      {/if}
+    </li>
     <li></li>{/each}
 </ul>
