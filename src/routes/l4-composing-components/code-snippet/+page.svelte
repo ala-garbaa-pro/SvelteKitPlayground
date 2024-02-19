@@ -41,3 +41,9 @@
   >adv - Rendering different HTML element or component types</a
 >
 <br />
+
+
+<a href="/l4-composing-components/code-snippet/creating-recursive-components-for-recursive-data"
+  >Creating recursive components for recursive data</a
+>
+<br />
