@@ -1,3 +1,3 @@
-3# Svelte Kit Playground
+43# Svelte Kit Playground
 
 12
